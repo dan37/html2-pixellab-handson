@@ -7,6 +7,13 @@
   justify-content: space-around;
 }
 
+.circles {
+  width: 75%;
+  border: 2px dotted brown;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
 .square {
   width: 200px;
   height: 200px;
@@ -24,6 +31,30 @@
 
 .square-purple {
   background-color: purple;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border: 3px solid red;
+  border-radius: 50%;
+  background-color: purple;
+}
+
+.circle-red {
+  background-color: red;
+}
+
+.circle-blue {
+  background-color: blue;
+}
+
+.circle-green {
+  background-color: green;
+}
+
+.circle-border-blue {
+  border: 3px solid blue;
 }
 
 /*# sourceMappingURL=style.css.map */
