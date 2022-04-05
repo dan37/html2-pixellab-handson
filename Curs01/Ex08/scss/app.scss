@@ -12,6 +12,52 @@
   background-color: brown;
 }
 
+.squares {
+  width: 80%;
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background-color: turquoise;
+}
+
+.square-magenta {
+  @extend .square;
+  background-color: magenta;
+}
+
+.square-peru {
+  @extend .square;
+  background-color: peru;
+}
+
+.square-purple {
+  @extend .square;
+  background-color: purple;
+}
+
+.square-blue {
+  @extend .square;
+  background-color: blue;
+}
+
+.square-green {
+  @extend .square;
+  background-color: green;
+}
+
+.square-red {
+  @extend .square;
+  background-color: red;
+}
+
 .circle-red {
   @extend .circle;
 
