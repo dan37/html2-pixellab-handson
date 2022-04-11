@@ -9,3 +9,43 @@
   height: 150px;
   border: 1px solid #000;
 }
+
+$border-styles: dotted, solid, dashed, double, none;
+
+@each $style in $border-styles {
+  .b-#{$style} {
+    border-style: $style;
+  }
+}
+
+$margins: (
+  'xs': 4px,
+  'sm': 8px,
+  'md': 16px,
+  'lg': 32px,
+);
+
+$paddings: (
+  'xs': 4px,
+  'sm': 8px,
+  'md': 16px,
+  'lg': 32px,
+);
+
+@each $style in $border-styles {
+  .b-#{$style} {
+    border-style: $style;
+  }
+}
+
+@each $size, $value in $margins {
+  .m-#{$size} {
+    margin: $value;
+  }
+}
+
+@each $size, $value in $paddings {
+  .p-#{$size} {
+    padding: $value;
+  }
+}
